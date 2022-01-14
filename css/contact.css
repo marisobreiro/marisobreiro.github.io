@@ -1,3 +1,17 @@
+.contact__button {
+    background-color: #FFFFFF;
+    border: solid #000000 1px;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    padding: 0.25vh 1vw 0.25vh 1vw;
+}
+
+.contact__button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
 @media screen and (max-width: 600px) {
     .contact {
         padding-bottom: 10rem;
