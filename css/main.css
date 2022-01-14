@@ -30,7 +30,7 @@ button {
     padding: 0.25vh 1vw 0.25vh 1vw;   
 }
 
-button:hover {
+button:hover, button a:hover {
     background-color: #000000;
     color: #FFFFFF;
 }

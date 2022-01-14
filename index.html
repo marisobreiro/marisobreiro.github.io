@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./css/projects/main.css">
     <link rel="stylesheet" href="./css/projects/projectone.css">
     <link rel="stylesheet" href="./css/projects/projecttwo.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/features/scrollreveal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +29,7 @@
                 <li class="menu__list-item"><a href="#projects">Projetos</a></li>
                 <li class="menu__list-item"><a href="#contact">Contato</a></li>
                 <li class="menu__list-item">
-                    <button>Resumo</button>
+                    <button type="button"><a href="./file/curriculo.pdf">Resumo</a></button>
                 </li>
             </ul>   
             <div class="menu__mobile" id="menuMobile" onclick="menuChange(this)">
@@ -58,11 +59,12 @@
             <h2 class="portfolio__title">Sobre</h2>
             <p class="portfolio__text">Olá! Me chamo Mariana, sou estudante do segundo ano de Análise e Desenvolvimento de Sistemas e estou me especializando em desenvolvimento web com foco em experiência do usuário. Já trabalhei na área de produto e tecnologia como Product Owner e Scrum Master, principalmente, desenvolvendo documentos técnicos, prototipando interfaces, definindo requisitos de produto e identificando melhorias e bugs do processo. Atuei também na realização de testes como usuário, na condução de Sprints e na comunicação entre stakeholders e dev squads.</p>
             <div class="about__tecnologias">
-                <p class="about__tecnologias-title">Tecnologias<p>
+                <p class="about__tecnologias-title">Stack<p>
                 <div class="about__tecnologias-list">
                     <i class="fab fa-html5 fa-3x about__tecnologias-icon" id="html-icon"></i>
                     <i class="fab fa-css3-alt fa-3x about__tecnologias-icon" id="css-icon"></i>
                     <i class="fab fa-js-square fa-3x about__tecnologias-icon" id="js-icon"></i>
+                    <i class="fab fa-bootstrap fa-3x about__tecnologias-icon" id="bootstrap-icon"></i>
                     <i class="fab fa-vuejs fa-3x about__tecnologias-icon" id="vue-icon"></i>
                 </div>
             </div>
@@ -75,7 +77,7 @@
                 </div>
                 <article class="project__one-description">
                     <h3 class="portfolio__subtitle">Patita</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                    <p>Patita é uma plataforma de recomendações, lugares e serviços para pets. Confira em breve.</p>
                     <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | JSP | Thymeleaf</p>
                 </article>
             </div>
@@ -86,7 +88,7 @@
                 <article>
                     <div class="project__two-description">
                         <h3 class="portfolio__subtitle">Portfolio</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                        <p>Projetado para a divulgação dos meus últimos projetos desenvolvidos.</p>
                         <p class="portfolio__tag">HTML5 | CSS3 | JavaScript</p>
                     </div>
                 </article>
@@ -97,15 +99,15 @@
                 </div>
                 <article class="project__one-description">
                     <h3 class="portfolio__subtitle">Project Cover</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                    <p>Um projeto de venda de quadros personalizados de álbuns musicais.</p>
                     <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | Boostrap | Thymeleaf</p>
                 </article>
             </div>
         </section>
-        <section class="container reveal" id="contact">
+        <section class="container contact reveal" id="contact">
             <h2 class="portfolio__title">Contato</h2>
             <p class="portfolio__text">Entre em contato, estou procurando por um novo desafio!</p>
-            <button>Enviar e-mail</button>
+            <button type="button"><a href="mailto:marianasobreiro93@gmail.com">Enviar e-mail</a></button>
         </section>
     </main>
     <footer class="footer">
