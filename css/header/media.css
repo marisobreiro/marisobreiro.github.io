@@ -25,6 +25,11 @@
     margin-top: 2.5rem;
 }
 
+.media__list-item:hover {
+    border: none;
+}
+
+
 .media__list-line {
     background-color: #000000;
     height: 50vh;
