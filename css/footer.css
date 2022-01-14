@@ -1,0 +1,16 @@
+.footer {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__text {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) { 
+    .footer {
+        display: none;
+    }
+}

@@ -1,0 +1,81 @@
+.media {
+    bottom: 0;
+    height: 100%;
+    padding: 20rem 0.25rem 0 0;
+    position: fixed;
+    right: 0;
+    z-index: 99;
+}
+
+.media__list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.media__list-design {
+    border-right: solid #000000 1px;
+    border-top: solid #000000 1px;
+    height: 45vh;
+    margin: 4.5rem 3.5rem 0 0;
+    width: 4rem;
+}
+
+.media__list-item {
+    margin-top: 2.5rem;
+}
+
+.media__list-line {
+    background-color: #000000;
+    height: 50vh;
+    margin-top: 2.5rem;
+    width: 1px;
+}
+
+.media__list-github:hover {
+    color: #333333;
+}
+
+.media__list-linkedin:hover {
+    color: #0e76a8;
+}
+
+.media__list-instagram:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+          /* Also define standard property for compatibility */
+          background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 600px) {
+    .media {
+        background-color: #FFFFFF;
+        bottom: 0;
+        height: auto;
+        position: fixed;
+        padding: 0;
+        right: auto;
+        z-index: 99;
+        width: 100vw;
+    }
+
+    .media__list {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .media__list-design {
+        display: none;
+    }
+    
+    .media__list-item {
+        margin: 2rem 2rem
+    }
+     
+    .media__list-line {
+        display: none;
+    }
+
+}

@@ -1,0 +1,78 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20vh;
+}
+
+body {
+    font-family: 'Anaheim', sans-serif;
+}
+
+a {
+    color: #000000;
+    text-decoration: none !important;
+}
+
+a:hover {
+    border-bottom: solid #000000 1px;
+}
+
+a:active {
+    border-bottom: solid #000000 1px;
+    font-weight: 800;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: solid #000000 1px;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    padding: 0.25vh 1vw 0.25vh 1vw;   
+}
+
+button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20vw 15vh 20vw;
+    text-align: center;
+}
+
+/* Text */
+
+.portfolio__title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio__subtitle {
+    font-size: 1.15rem;
+    padding-bottom: 1rem;
+}
+
+.portfolio__text {
+    padding-bottom: 2rem;
+}
+
+.portfolio__tag {
+    font-size: 0.75rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        scroll-padding-top: 55vh;
+    }
+
+    .container {
+        padding: 0 10vw 5vh 10vw;
+    }
+}

@@ -1,0 +1,27 @@
+.about__tecnologias-list {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.about__tecnologias-icon {
+    padding: 1rem;
+    width: 2rem;
+}
+
+#html-icon:hover {
+    color: #e34c26
+}
+
+#css-icon:hover {
+    color: #264de4;
+}
+
+#js-icon:hover {
+    color: #f0db4f;
+}
+
+#vue-icon:hover {
+    color: #41B883;
+}

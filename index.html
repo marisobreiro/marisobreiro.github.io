@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana Sobreiro</title>
+    <link rel="stylesheet" href="./css/features/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header/menu.css">
+    <link rel="stylesheet" href="./css/header/media.css">
+    <link rel="stylesheet" href="./css/headline.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/projects/main.css">
+    <link rel="stylesheet" href="./css/projects/projectone.css">
+    <link rel="stylesheet" href="./css/projects/projecttwo.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/features/scrollreveal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menu__list" id="menuList">
+                <li class="menu__list-item"><a href="#about">Sobre</a></li>
+                <li class="menu__list-item"><a href="#projects">Projetos</a></li>
+                <li class="menu__list-item"><a href="#contact">Contato</a></li>
+                <li class="menu__list-item">
+                    <button>Resumo</button>
+                </li>
+            </ul>   
+            <div class="menu__mobile" id="menuMobile" onclick="menuChange(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+        <div class="media">
+            <ul class="media__list">
+                <div class="media__list-design"></div>
+                <i class="fab fa-github fa-2x media__list-item media__list-github"></i>
+                <i class="fab fa-codepen fa-2x media__list-item"></i>
+                <i class="fab fa-linkedin fa-2x media__list-item media__list-linkedin"></i>
+                <i class="fab fa-instagram fa-2x media__list-item media__list-instagram"></i>
+                <div class="media__list-item media__list-line"></div>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="headline">
+            <h2 class="headline__title">Mariana Sobreiro</h2>
+            <p class="headline__subtitle">Desenvolvedora Front-End</p>
+            <div class="arrow bounce"></div>
+        </section>
+        <section class="container about reveal" id="about">
+            <h2 class="portfolio__title">Sobre</h2>
+            <p class="portfolio__text">Olá! Me chamo Mariana, sou estudante do segundo ano de Análise e Desenvolvimento de Sistemas e estou me especializando em desenvolvimento web com foco em experiência do usuário. Já trabalhei na área de produto e tecnologia como Product Owner e Scrum Master, principalmente, desenvolvendo documentos técnicos, prototipando interfaces, definindo requisitos de produto e identificando melhorias e bugs do processo. Atuei também na realização de testes como usuário, na condução de Sprints e na comunicação entre stakeholders e dev squads.</p>
+            <div class="about__tecnologias">
+                <p class="about__tecnologias-title">Tecnologias<p>
+                <div class="about__tecnologias-list">
+                    <i class="fab fa-html5 fa-3x about__tecnologias-icon" id="html-icon"></i>
+                    <i class="fab fa-css3-alt fa-3x about__tecnologias-icon" id="css-icon"></i>
+                    <i class="fab fa-js-square fa-3x about__tecnologias-icon" id="js-icon"></i>
+                    <i class="fab fa-vuejs fa-3x about__tecnologias-icon" id="vue-icon"></i>
+                </div>
+            </div>
+        </section>
+        <section class="container project reveal" id="projects">
+            <h2 class="portfolio__title">Projetos</h2>
+            <div class="project__one reveal">
+                <div class="project__design-frame">
+                    <img class="project__design-img" src="./img/patita.png" alt="">
+                </div>
+                <article class="project__one-description">
+                    <h3 class="portfolio__subtitle">Patita</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                    <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | JSP | Thymeleaf</p>
+                </article>
+            </div>
+            <div class="project__two reveal">
+                <div class="project__design-frame">
+                    <img class="project__design-img" src="./img/portfolio.png" alt="">
+                    </div>
+                <article>
+                    <div class="project__two-description">
+                        <h3 class="portfolio__subtitle">Portfolio</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                        <p class="portfolio__tag">HTML5 | CSS3 | JavaScript</p>
+                    </div>
+                </article>
+            </div>
+            <div class="project__one reveal">
+                <div class="project__design-frame">
+                    <img class="project__design-img" src="./img/projectcover.png" alt="">
+                </div>
+                <article class="project__one-description">
+                    <h3 class="portfolio__subtitle">Project Cover</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi autem exercitationem placeat reprehenderit molestiae numquam doloremque fugit similique fuga nemo vitae quaerat, alias ab, dignissimos nihil soluta repudiandae harum libero.</p>
+                    <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | Boostrap | Thymeleaf</p>
+                </article>
+            </div>
+        </section>
+        <section class="container reveal" id="contact">
+            <h2 class="portfolio__title">Contato</h2>
+            <p class="portfolio__text">Entre em contato, estou procurando por um novo desafio!</p>
+            <button>Enviar e-mail</button>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__text">Desenvolvido por Mariana Sobreiro | 2022</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/5b976ce138.js" crossorigin="anonymous"></script>
+    <script src="./js/scrollreveal.js"></script>
+    <script src="./js/menumobile.js"></script>
+</body>
+</html>

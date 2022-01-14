@@ -1,0 +1,31 @@
+.project {
+    padding-bottom: 8rem;
+}
+
+.project__design-frame {
+    border: 1px solid #000000;
+    height: auto;
+    width: 60vw;
+}
+
+.project__design-img {
+    width: 100%;
+}
+
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+@media screen and (max-width: 600px) {
+    .project__design-frame, .project__design-img {
+        margin-bottom: 1.5rem;
+        width: 90%;
+    }
+
+}
