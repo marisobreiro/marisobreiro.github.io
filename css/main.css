@@ -67,6 +67,12 @@ button:hover, button a:hover {
     padding-top: 1rem;
 }
 
+.portfolio__access {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
 @media screen and (max-width: 600px) {
     html {
         scroll-padding-top: 55vh;
