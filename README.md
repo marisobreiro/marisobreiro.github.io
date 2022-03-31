@@ -29,8 +29,8 @@ Acesse a página [aqui](https://marisobreiro.github.io/)
 - Font Awesome
 
 ## Design
-Design criado utilizando Figma.
-https://www.figma.com/file/q5APNV2sn6AQTNxgsFg5hy/Untitled?node-id=0%3A1
+Design criado utilizando [Figma](https://www.figma.com/file/q5APNV2sn6AQTNxgsFg5hy/Untitled?node-id=0%3A1).
+
 
 Interface responsiva para smartphones, tablets e desktops.
 
