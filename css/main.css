@@ -90,6 +90,16 @@ a:active {
     padding-top: 1rem;
 }
 
+img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
 @media screen and (max-width: 600px) {
     html {
         scroll-padding-top: 55vh;

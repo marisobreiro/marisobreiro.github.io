@@ -7,6 +7,7 @@
 
 .project__design {
     background-repeat: no-repeat;
+    background-position: center;
     background-size:cover;
     border: 1px solid #000000;
     filter: grayscale(100%);
@@ -45,25 +46,36 @@
     width: 10rem;
 }
 
-img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-}
-
-img:hover {
-    filter: none;
-    -webkit-filter: grayscale(0);
-}
-
 .project__design:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
 
 @media screen and (max-width: 600px) {
-    .project__design-frame, .project__design-img {
-        margin-bottom: 1.5rem;
-        width: 90%;
+    .project {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0;
+        text-align: center;
+    }
+
+    .project__design {
+        background-size: cover;
+        min-width: 250px;
+        width: 250px;
+        height: 150px;
+        margin: 0 0 30px 0;
+    }
+
+    .portfolio__actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portifolio__action-button {
+        width: 200px;
+        margin: 0.5rem 0 0 0;
     }
 
 }
