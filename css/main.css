@@ -16,10 +16,11 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
-    /* padding: 0 20vw 15vh 20vw; */
-    width: 80%;
-    text-align: center;
+    justify-content: center;
+    margin: 0 15vw;
 }
+
+/* Links */
 
 a {
     color: #000000;
@@ -35,6 +36,7 @@ a:active {
     font-weight: 800;
 }
 
+/* Buttons */
 .button {
     background-color: #FFFFFF;
     color: #000000;
@@ -50,7 +52,7 @@ a:active {
     background-color: #000000;
 }
 
-.button-port {
+.button-disabled {
     background-color: #000000;
     color: #FFFFFF;
     border: solid #000000 1px;
@@ -59,6 +61,7 @@ a:active {
     font-weight: 800;
     padding: 0.25vh 1vw 0.25vh 1vw; 
 }
+
 
 /* Text */
 
@@ -81,18 +84,6 @@ a:active {
 .portfolio__tag {
     font-size: 0.75rem;
     padding-top: 1rem;
-}
-
-.portfolio__actions {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin: 1rem 0;
-}
-
-.portifolio__action-button {
-    margin-right: 1rem;
-    width: 10rem;
 }
 
 @media screen and (max-width: 600px) {

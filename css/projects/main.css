@@ -12,6 +12,18 @@
     width: 100%;
 }
 
+.portfolio__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.portifolio__action-button {
+    margin-right: 1rem;
+    width: 10rem;
+}
+
 img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);

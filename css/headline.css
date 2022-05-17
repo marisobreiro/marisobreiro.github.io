@@ -1,7 +1,7 @@
 .headline {
     height: 60vh;
-    padding: 50vh 5vh 0 5vw;
-    width: 85vw;
+    margin: 50vh 0 0 5vw;
+    width: 100%;
 }   
 
 .headline__title {
