@@ -77,3 +77,15 @@
     width: 1.8rem;
     margin-right: 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .about__tecnologias-list {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about__tecnologias-icon, #styled-icon, #material-icon, #ts-icon {
+        margin: 1rem;
+    }
+
+}

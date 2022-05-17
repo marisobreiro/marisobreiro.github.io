@@ -112,4 +112,8 @@ img:hover {
     .container {
         padding: 0 10vw 5vh 10vw;
     }
+
+    .container section { 
+        margin-top: 5rem;
+    }
 }

@@ -1,7 +1,7 @@
 .headline {
     height: 60vh;
     margin: 50vh 0 0 5vw;
-    width: 100%;
+    width: 90%;
 }   
 
 .headline__title {
@@ -47,7 +47,9 @@
     }
 
     .headline {
+        width: 100vw;
         height: 40vh;
+        margin-left: 3rem;
     }
 
     .headline__title {
