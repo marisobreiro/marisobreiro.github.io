@@ -4,7 +4,21 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
     font-family: 'Anaheim', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 0 20vw 15vh 20vw; */
+    width: 80%;
+    text-align: center;
 }
 
 a {
@@ -21,8 +35,9 @@ a:active {
     font-weight: 800;
 }
 
-button {
+.button {
     background-color: #FFFFFF;
+    color: #000000;
     border: solid #000000 1px;
     font-family: 'Anaheim', sans-serif;
     font-size: 1.15rem;
@@ -30,31 +45,32 @@ button {
     padding: 0.25vh 1vw 0.25vh 1vw;   
 }
 
-button:hover, button a:hover {
-    background-color: #000000;
+.button:active, .button:hover {
     color: #FFFFFF;
+    background-color: #000000;
 }
 
-.container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 20vw 15vh 20vw;
-    text-align: center;
+.button-port {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: solid #000000 1px;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 800;
+    padding: 0.25vh 1vw 0.25vh 1vw; 
 }
 
 /* Text */
 
 .portfolio__title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 2rem;
     text-align: center;
 }
 
 .portfolio__subtitle {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
@@ -67,6 +83,17 @@ button:hover, button a:hover {
     padding-top: 1rem;
 }
 
+.portfolio__actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+}
+
+.portifolio__action-button {
+    margin-right: 1rem;
+    width: 10rem;
+}
 
 @media screen and (max-width: 600px) {
     html {

@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="./img/favicon.ico">
     <link rel="stylesheet" href="./css/features/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css//header/main.css">
     <link rel="stylesheet" href="./css/header/menu.css">
     <link rel="stylesheet" href="./css/header/media.css">
     <link rel="stylesheet" href="./css/headline.css">
@@ -26,11 +27,13 @@
     <header>
         <nav class="menu">
             <ul class="menu__list" id="menuList">
-                <li class="menu__list-item"><a href="#about">Sobre</a></li>
-                <li class="menu__list-item"><a href="#projects">Projetos</a></li>
-                <li class="menu__list-item"><a href="#contact">Contato</a></li>
-                <li class="menu__list-item">
-                    <button type="button"><a href="./file/curriculo.pdf" target="_blank">Resumo</a></button>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li>
+                    <form action="./file/curriculo.pdf" target="_blank">
+                        <input type="submit" value="Resumo" class="button">
+                    </form>
                 </li>
             </ul>   
             <div class="menu__mobile" id="menuMobile" onclick="menuChange(this)">
@@ -56,7 +59,7 @@
             <p class="headline__subtitle">Desenvolvedora Front-End</p>
             <div class="arrow bounce"></div>
         </section>
-        <section class="container about reveal" id="about">
+        <section class="container reveal" id="about">
             <h2 class="portfolio__title">Sobre</h2>
             <p class="portfolio__text">Olá! Me chamo Mariana, sou estudante do segundo ano de Análise e Desenvolvimento de Sistemas e estou me especializando em desenvolvimento web com foco em experiência do usuário. Já trabalhei na área de produto e tecnologia como Product Owner e Scrum Master, principalmente, desenvolvendo documentos técnicos, prototipando interfaces, definindo requisitos de produto e identificando melhorias e bugs do processo. Atuei também na realização de testes como usuário, na condução de Sprints e na comunicação entre stakeholders e dev squads.</p>
             <div class="about__tecnologias">
@@ -76,23 +79,39 @@
             <h2 class="portfolio__title">Projetos</h2>
             <div class="project__one reveal">
                 <div class="project__design-frame">
-                    <img class="project__design-img" src="./img/patita.png" alt="">
+                    <img class="project__design-img" src="./img/todolist-angular.png" alt=""">
                 </div>
                 <article class="project__one-description">
-                    <h3 class="portfolio__subtitle">Patita</h3>
-                    <p>Patita é uma plataforma de recomendações, lugares e serviços para pets. Confira em breve.</p>
-                    <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | JSP | Thymeleaf</p>
+                    <h3 class="portfolio__subtitle">Todolist.</h3>
+                    <p>O projeto é um sistema de criação e gerenciamento de tarefas diárias. É possível realizar a adição, atualização e exclusão da tarefa.</p>
+                    <p class="portfolio__tag">Angular | Typescript | Material Design | JSON-server</p>
+                    <div class="portfolio__actions">
+                        <form action="https://todolist-a-ms.netlify.app/" target="_blank">
+                            <input type="submit" value="Demonstração" class="button portifolio__action-button">
+                        </form>
+                        <form action="https://github.com/marisobreiro/to-do-list-angular" target="_blank">
+                            <input type="submit" value="Repositório" class="button">
+                        </form>
+                    </div>
                 </article>
             </div>
-            <div class="project__two reveal">
+            <div class="project__one reveal">
                 <div class="project__design-frame">
                     <img class="project__design-img" src="./img/portfolio.png" alt="">
                     </div>
                 <article>
-                    <div class="project__two-description">
+                    <div class="project__one-description">
                         <h3 class="portfolio__subtitle">Portfolio</h3>
                         <p>Projetado para a divulgação dos meus últimos projetos desenvolvidos.</p>
                         <p class="portfolio__tag">HTML5 | CSS3 | JavaScript</p>
+                        <div class="portfolio__actions">
+                            <form action="" target="_blank">
+                                <input type="submit" value="Você está aqui" class="button-port portifolio__action-button" disabled>
+                            </form>
+                            <form action="https://github.com/marisobreiro/to-do-list-angular" target="_blank">
+                                <input type="submit" value="Repositório" class="button">
+                            </form>
+                        </div>
                     </div>
                 </article>
             </div>
@@ -101,9 +120,36 @@
                     <img class="project__design-img" src="./img/projectcover.png" alt="">
                 </div>
                 <article class="project__one-description">
-                    <h3 class="portfolio__subtitle">Project Cover</h3>
-                    <p>Um projeto de venda de quadros personalizados de álbuns musicais.</p>
-                    <p class="portfolio__tag">HTML5 | CSS3 | JavaScript | Boostrap | Thymeleaf</p>
+                    <h3 class="portfolio__subtitle">Palpet</h3>
+                    <p>O projeto é um sistema para gerenciamento de petshops e clínicas veterinárias. Nele é possível realizar o cadastro, edição e exclusão de um pet do sistema.
+                        Também é possível acompanhar os focinhos disponíveis para adoção atráves de uma base alimentada pelos seguidores do palpet.</p>
+                    <p class="portfolio__tag">Angular | Typescript | Material Design | JSON-server</p>
+                    <div class="portfolio__actions">
+                        <form action="https://todolist-a-ms.netlify.app/" target="_blank">
+                            <input type="submit" value="Demonstração" class="button portifolio__action-button">
+                        </form>
+                        <form action="https://github.com/marisobreiro/palpet" target="_blank">
+                            <input type="submit" value="Repositório" class="button">
+                        </form>
+                    </div>
+                </article>
+            </div>
+            <div class="project__one reveal">
+                <div class="project__design-frame">
+                    <img class="project__design-img" src="./img/projectcover.png" alt="">
+                </div>
+                <article class="project__one-description">
+                    <h3 class="portfolio__subtitle">Devtree</h3>
+                    <p>Uma aplicação desenvolvida em ReactJS voltada para Devs divulgarem seus principais projetos. Um portifólio simples e intuitivo.</p>
+                    <p class="portfolio__tag">ReactJS | React Router | React Icons | JSON-server</p>
+                    <div class="portfolio__actions">
+                        <form action="https://todolist-a-ms.netlify.app/" target="_blank">
+                            <input type="submit" value="Demonstração" class="button portifolio__action-button">
+                        </form>
+                        <form action="https://github.com/marisobreiro/palpet" target="_blank">
+                            <input type="submit" value="Repositório" class="button">
+                        </form>
+                    </div>
                 </article>
             </div>
         </section>
