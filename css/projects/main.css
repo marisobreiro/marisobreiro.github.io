@@ -1,15 +1,36 @@
 .project {
-    padding-bottom: 8rem;
-}
-
-.project__design-frame {
-    border: 1px solid #000000;
-    height: auto;
-    width: 40vw;
-}
-
-.project__design-img {
+    display: flex;
+    flex-direction: row;
+    margin: 8rem 0;
     width: 100%;
+}
+
+.project__design {
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid #000000;
+    filter: grayscale(100%);
+    height: 250px;
+    margin-right: 30px;
+    max-width: 500px;
+    min-width: 500px;
+    -webkit-filter: grayscale(100%);
+}
+
+.p-portifolio {
+    background-image: url('../../img/portfolio.png');
+}
+
+.p-todolist {
+    background-image: url('/img/images/todolist-angular.png');
+}
+
+.p-palpet {
+    background-image: url('/img/images/palpet.png');
+}
+
+.p-devtree {
+    background-image: url('/img/images/devtree.png');
 }
 
 .portfolio__actions {
@@ -30,6 +51,11 @@ img {
 }
 
 img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.project__design:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }

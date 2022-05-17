@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="./css/headline.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/projects/main.css">
-    <link rel="stylesheet" href="./css/projects/projectone.css">
-    <link rel="stylesheet" href="./css/projects/projecttwo.css">
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/features/scrollreveal.css">
@@ -81,13 +79,27 @@
                     </div>
                 </div>
             </section>
-            <section class=" project reveal" id="projects">
+            <section class="reveal" id="projects">
                 <h2 class="portfolio__title">Projetos</h2>
-                <div class="project__one reveal">
-                    <div class="project__design-frame">
-                        <img class="project__design-img" src="./img/todolist-angular.png" alt=""">
-                    </div>
-                    <article class="project__one-description">
+                <div class="project reveal">
+                    <div class="project__design p-portifolio"></div>
+                    <article class="project__description">
+                        <h3 class="portfolio__subtitle">Portfolio</h3>
+                        <p>Projetado para a divulgação dos meus últimos projetos desenvolvidos.</p>
+                        <p class="portfolio__tag">HTML5 | CSS3 | JavaScript</p>
+                        <div class="portfolio__actions">
+                            <form action="" target="_blank">
+                                <input type="submit" value="Você está aqui" class="button-disabled portifolio__action-button" disabled>
+                            </form>
+                            <form action="https://github.com/marisobreiro/to-do-list-angular" target="_blank">
+                                <input type="submit" value="Repositório" class="button">
+                            </form>
+                        </div>
+                    </article>
+                </div>
+                <div class="project reveal">
+                    <div class="project__design p-todolist"></div>
+                    <article class="project__description">
                         <h3 class="portfolio__subtitle">Todolist.</h3>
                         <p>O projeto é um sistema de criação e gerenciamento de tarefas diárias. É possível realizar a adição, atualização e exclusão da tarefa.</p>
                         <p class="portfolio__tag">Angular | Typescript | Material Design | JSON-server</p>
@@ -101,31 +113,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="project__one reveal">
-                    <div class="project__design-frame">
-                        <img class="project__design-img" src="./img/portfolio.png" alt="">
-                        </div>
-                    <article>
-                        <div class="project__one-description">
-                            <h3 class="portfolio__subtitle">Portfolio</h3>
-                            <p>Projetado para a divulgação dos meus últimos projetos desenvolvidos.</p>
-                            <p class="portfolio__tag">HTML5 | CSS3 | JavaScript</p>
-                            <div class="portfolio__actions">
-                                <form action="" target="_blank">
-                                    <input type="submit" value="Você está aqui" class="button-disabled portifolio__action-button" disabled>
-                                </form>
-                                <form action="https://github.com/marisobreiro/to-do-list-angular" target="_blank">
-                                    <input type="submit" value="Repositório" class="button">
-                                </form>
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="project__one reveal">
-                    <div class="project__design-frame">
-                        <img class="project__design-img" src="./img/projectcover.png" alt="">
-                    </div>
-                    <article class="project__one-description">
+                <div class="project reveal">
+                    <div class="project__design p-palpet"></div>
+                    <article class="project__description">
                         <h3 class="portfolio__subtitle">Palpet</h3>
                         <p>O projeto é um sistema para gerenciamento de petshops e clínicas veterinárias. Nele é possível realizar o cadastro, edição e exclusão de um pet do sistema.
                             Também é possível acompanhar os focinhos disponíveis para adoção atráves de uma base alimentada pelos seguidores do palpet.</p>
@@ -140,11 +130,9 @@
                         </div>
                     </article>
                 </div>
-                <div class="project__one reveal">
-                    <div class="project__design-frame">
-                        <img class="project__design-img" src="./img/projectcover.png" alt="">
-                    </div>
-                    <article class="project__one-description">
+                <div class="project reveal">
+                    <div class="project__design p-devtree"></div>
+                    <article class="project__description">
                         <h3 class="portfolio__subtitle">Devtree</h3>
                         <p>Uma aplicação desenvolvida em ReactJS voltada para Devs divulgarem seus principais projetos. Um portifólio simples e intuitivo.</p>
                         <p class="portfolio__tag">ReactJS | React Router | React Icons | JSON-server</p>
@@ -152,14 +140,14 @@
                             <form action="https://todolist-a-ms.netlify.app/" target="_blank">
                                 <input type="submit" value="Demonstração" class="button portifolio__action-button">
                             </form>
-                            <form action="https://github.com/marisobreiro/palpet" target="_blank">
+                            <form action="https://github.com/marisobreiro/devtree" target="_blank">
                                 <input type="submit" value="Repositório" class="button">
                             </form>
                         </div>
                     </article>
                 </div>
             </section>
-            <section class=" contact reveal" id="contact">
+            <section class="contact reveal" id="contact">
                 <h2 class="portfolio__title">Contato</h2>
                 <p class="portfolio__text">Entre em contato, estou procurando por um novo desafio!</p>
                 <a class="contact__button" href="mailto:marianasobreiro93@gmail.com">Enviar e-mail</a>

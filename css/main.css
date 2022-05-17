@@ -9,7 +9,7 @@ body {
     align-items: center !important;
     font-family: 'Anaheim', sans-serif;
     height: 100vh;
-    width: 100vw;
+    width: 94vw;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 }
 
 .container section { 
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 /* Links */
@@ -95,6 +95,10 @@ a:active {
         scroll-padding-top: 55vh;
     }
 
+    body {
+        width: 100vw;
+    }
+    
     .container {
         padding: 0 10vw 5vh 10vw;
     }
