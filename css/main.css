@@ -20,6 +20,10 @@ body {
     margin: 0 15vw;
 }
 
+.container section { 
+    margin-top: 5rem;
+}
+
 /* Links */
 
 a {

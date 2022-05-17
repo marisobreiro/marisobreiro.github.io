@@ -1,13 +1,28 @@
+#about {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
 .about__tecnologias-list {
     align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
+.about__tecnologias-title {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+/* Icons */
 .about__tecnologias-icon {
-    margin: 1rem;
+    margin-right: 1.5rem !important;
+    color: rgb(103, 103, 103);
 }
 
 #html-icon:hover {
@@ -36,4 +51,29 @@
 
 #git-icon:hover {
     color: #f34f29;
+}
+
+#react-icon:hover {
+    color: #61DBFB;
+}
+
+#angular-icon:hover {
+    color: #B52E31;
+}
+
+#styled-icon {
+    width: 2rem;
+    margin-right: 1.5rem;
+
+}
+
+#material-icon {
+    width: 1.8rem;
+    margin-right: 1.5rem;
+
+}
+
+#ts-icon {
+    width: 1.8rem;
+    margin-right: 1.5rem;
 }
