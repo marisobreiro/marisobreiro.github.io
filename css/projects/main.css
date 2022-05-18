@@ -34,6 +34,10 @@
     background-image: url('/img/images/devtree.png');
 }
 
+.p-planner {
+    background-image: url('/img/images/planner.png');
+}
+
 .portfolio__actions {
     display: flex;
     flex-direction: row;
