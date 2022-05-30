@@ -23,6 +23,11 @@
 .about__tecnologias-icon {
     margin-right: 1.5rem !important;
     color: rgb(103, 103, 103);
+    transition: transform 1s;
+}
+
+.about__tecnologias-icon:hover {
+    transform: scale(1.5);
 }
 
 #html-icon:hover {
@@ -64,18 +69,23 @@
 #styled-icon {
     width: 2rem;
     margin-right: 1.5rem;
-
+    transition: transform 1s;
 }
 
 #material-icon {
     width: 1.8rem;
     margin-right: 1.5rem;
-
+    transition: transform 1s;
 }
 
 #ts-icon {
     width: 1.8rem;
     margin-right: 1.5rem;
+    transition: transform 1s;
+}
+
+#ts-icon:hover, #material-icon:hover, #styled-icon:hover {
+    transform: scale(1.5);
 }
 
 @media screen and (max-width: 600px) {
